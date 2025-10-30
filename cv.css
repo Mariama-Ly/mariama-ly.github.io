@@ -69,12 +69,12 @@ ul{
 }
 a:hover {
     text-decoration: none;
-    background-color: #007BFF;
+    background-color: #52585f;
     color: white;
     padding: 15px 25px;
     border-radius: 8px;
     font-size: 18px;
-    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+    box-shadow: 0 5px 15px rgba(31, 36, 42, 0.4);
     transition: all 0.3s ease;
 
 }
