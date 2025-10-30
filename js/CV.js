@@ -1,6 +1,9 @@
-const boutton= document.getElementById("téléchargerBtn");
-boutton.addEventListener("click",function(event)){
-    Event.preventdefault();
-    alert("Merci de télécharger mon CV !");
-    window.location.href = boutton.href;
-}
+document.addEventListener("DOMContentLoaded", function() {
+    const telechargerBtn = document.getElementById("telechargerBtn");
+
+    if (telechargerBtn) {
+        telechargerBtn.addEventListener("click", function() {
+            alert("Merci de télécharger mon CV !");
+        });
+    }
+});
