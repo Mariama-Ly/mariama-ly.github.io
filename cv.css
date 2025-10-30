@@ -67,15 +67,24 @@ ul{
     padding-left: 15px;
 
 }
-a:hover {
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn{
+    
     text-decoration: none;
-    background-color: #52585f;
     color: white;
-    padding: 15px 25px;
-    border-radius: 8px;
-    font-size: 18px;
-    box-shadow: 0 5px 15px rgba(31, 36, 42, 0.4);
-    transition: all 0.3s ease;
-
+    background-color: #333; /* noir */
+padding: 10px 18px;
+border-radius: 6px;
+font-weight: bold;
+font-size: 14px;
+transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+.btn:hover {
+  background-color: #52585f; /* gris foncé au survol */
+  transform: scale(1.05); /* petit
+}
