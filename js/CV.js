@@ -1,7 +1,9 @@
-const telechargerBtn = document.getElementById("telechargerBtn");
+document.addEventListener("DOMContentLoaded", function() {
+    const telechargerBtn = document.getElementById("telechargerBtn");
 
     if (telechargerBtn) {
         telechargerBtn.addEventListener("click",function() {
             alert("Merci de télécharger mon CV !");
         });
     }
+});
